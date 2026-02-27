@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "firmware/flight_controller",
+    "firmware/remote",
+    "crates/drone-hal",
+    "crates/drone-protocol",
+]
+
+resolver = "2"

@@ -1,0 +1,14 @@
+[package]
+name = "flight_controller"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "1"
+stm32f1xx-hal = { version = "0.11", features = ["stm32f103", "medium"] }
+embedded-hal = "0.2.7"
+
+drone-hal = { path = "../../crates/drone-hal" }
+drone-protocol = { path = "../../crates/drone-protocol" }

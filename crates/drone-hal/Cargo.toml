@@ -1,0 +1,7 @@
+[package]
+name = "drone-hal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# später evtl. embedded-hal, stm32f1xx-hal etc.
